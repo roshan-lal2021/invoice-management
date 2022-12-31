@@ -17,8 +17,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GoApptiv\\FileManagement\\Providers\\InvoiceManagementServiceProvider",
-                "GoApptiv\\FileManagement\\Providers\\RepositoryServiceProvider"
+                "GoApptiv\\InvoiceManagement\\Providers\\InvoiceManagementServiceProvider",
+                "GoApptiv\\InvoiceManagement\\Providers\\RepositoryServiceProvider"
             ]
         }
     }
