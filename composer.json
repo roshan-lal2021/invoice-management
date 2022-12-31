@@ -1,0 +1,25 @@
+{
+    "name": "goapptiv/invoice-management",
+    "description": "This package will be used for extracting data from invoice.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GoApptiv\\InvoiceManagement\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "manish-kapadi",
+            "email": "manish.kapadi@goapptiv.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GoApptiv\\FileManagement\\Providers\\InvoiceManagementServiceProvider",
+                "GoApptiv\\FileManagement\\Providers\\RepositoryServiceProvider"
+            ]
+        }
+    }
+}
