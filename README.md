@@ -1,1 +1,1 @@
-# invoice-management
+# GoApptiv Invoice Management Package Laravel
